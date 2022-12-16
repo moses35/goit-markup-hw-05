@@ -619,12 +619,15 @@ p {
 }
 .btn-modal {
   position: absolute;
+  display: flex;
   top: 0;
   right: 0;
   width: 30px;
   height: 30px;
   margin-top: 8px;
   margin-right: 8px;
+  justify-content: center;
+  align-items: center;
   background: var(--second-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
