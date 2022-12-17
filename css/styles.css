@@ -635,4 +635,5 @@ p {
 .btn-modal:hover,
 .btn-modal:focus {
   fill: var(--accent-color);
+  cursor: pointer;
 }
