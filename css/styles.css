@@ -620,14 +620,13 @@ p {
 .btn-modal {
   position: absolute;
   display: flex;
-  top: 0;
-  right: 0;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
-  margin-top: 8px;
-  margin-right: 8px;
   justify-content: center;
   align-items: center;
+  fill: var(--logo-color);
   background: var(--second-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -635,5 +634,5 @@ p {
 }
 .btn-modal:hover,
 .btn-modal:focus {
-  border-color: red;
+  fill: var(--accent-color);
 }
